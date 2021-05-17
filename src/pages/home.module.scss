@@ -1,0 +1,49 @@
+.posts {
+  strong {
+    font-size: 1.5rem;
+    color: var(--heading);
+
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+
+  p {
+    line-height: 1.5rem;
+  }
+
+  button {
+    background: transparent;
+    color: var(--highlight);
+    border: 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.result {
+  margin-top: 0.5rem;
+}
+
+.info {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: var(--info);
+
+  display: flex;
+  align-items: center;
+
+  svg {
+    color: var(--info);
+  }
+
+  span {
+    margin-left: 0.5rem;
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+  }
+}

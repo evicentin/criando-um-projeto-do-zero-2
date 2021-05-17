@@ -1,0 +1,107 @@
+.banner {
+  position: relative;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.post {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: var(--heading);
+}
+
+.info {
+  margin-top: 1rem;
+  color: var(--info);
+
+  display: flex;
+  align-items: center;
+
+  svg {
+    color: var(--info);
+  }
+
+  span {
+    margin-left: 0.5rem;
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+.lastEdit {
+  margin-top: 1rem;
+  color: var(--info);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  strong {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--heading);
+    font-size: 1.2rem;
+
+    & + strong {
+      margin-top: 3rem;
+    }
+  }
+
+  p {
+    line-height: 1.5rem;
+    font-size: 0.9em;
+    color: var(--body);
+    text-align: justify;
+  }
+}
+
+.divider {
+  margin-top: 3rem;
+  border-top: 1px solid var(--body);
+  opacity: 0.2;
+}
+
+.navigator {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  span {
+    color: var(--heading);
+
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+
+  a {
+    color: var(--highlight);
+  }
+
+  p {
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: var(--highlight);
+  }
+}
+
+.comments {
+  margin-top: 3rem;
+}

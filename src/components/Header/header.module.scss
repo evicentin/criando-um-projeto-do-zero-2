@@ -1,0 +1,24 @@
+.headerContainer {
+  height: 6rem;
+}
+
+.headerContent {
+  height: 6rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+
+  p {
+    color: var(--heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+
+    span {
+      color: var(--highlight);
+    }
+  }
+}
